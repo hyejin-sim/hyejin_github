@@ -495,8 +495,6 @@ span{
 
 /*section05 start*/
 #section05 {
-    width: 100%;
-    
     padding: 4% 0 6% 0;   
 }
 .container-05{
@@ -1060,25 +1058,38 @@ z-index: 999 !important;
 /*~~~~~~~~~~~~~~~~~~~375px~~~~~~~~~~~~~~~~~~*/
 
 @media(max-width:375px){
+    #section01{
+        width:110%;
+    }
+    #section02{
+        width:110%;
+    }
+    #section03{
+        width:110%;
+    }
+    #section04{
+        width:110%;
+    }
+    #section05{
+        width:110%;
+    }
+    #section06{
+        width:110%;
+    }
     .menu_box .ul{
         display: none;
     }
-  
-        
     .maintxt>h3{
         font-size: 32px;
         top: 23%;
         left: 29%;
     }
-    
     .maintxt>p{
         font-size: 34px;
         top: 28%;
         left: 16%;
     }
     /*section02 start*/
-
-
 .main-txt {
     left: 11%; 
 }
@@ -1212,7 +1223,6 @@ z-index: 999 !important;
 
 /*section05 start*/
 #section05 {
-    width: 100%;
     padding: 4% 0 6% 0;   
 }
 
