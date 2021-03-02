@@ -25,7 +25,7 @@
             <div class="swiper-slide bg-01"></div>
             <div class="swiper-slide bg-02"></div>
             <div class="swiper-slide bg-03"></div>
-          </div>
+        </div>
        
 
 
@@ -41,6 +41,11 @@
                 <li><a href="#section05">남산갤러리</a></li>
                 <li><a href="#section06">지도</a></li>
             </ul>
+            <div class="goust-menu">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="clearfix"></div>
+            
             <!--navi end-->
         </div>
         <div class="maintxt">
@@ -217,8 +222,6 @@
             <p>SEOUL NAMSAN</p>
         </div>
           <div class="container-06">
-              
-    
               <div class="sec-06-contents clearfix">
                 <div class="map_box">   
                 <div id="map"></div>
@@ -265,6 +268,15 @@
               <p>copyright&copy;</p>
           </div>
       </div>
+
+      <script>
+          $(function(){
+              $(".goust-menu").click(function(){
+                  $(".ul").slideToggle();
+              });
+          });
+      </script>
+
 
     <script>
         /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
