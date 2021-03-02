@@ -815,6 +815,7 @@ z-index: 999 !important;
         position: absolute;
         right: 20px;
         top: 30px;
+        z-index: 99;
     }
     /*navi end*/
     
