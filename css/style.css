@@ -76,67 +76,63 @@ html, body {
 .swiper-container {
     width: 100%;
       }
-      .swiper-slide {
-        text-align: center;
-        font-size: 18px;
-        background: #fff;
-        /* Center slide text vertically */
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: -webkit-flex;
-        display: flex;
-        -webkit-box-pack: center;
-        -ms-flex-pack: center;
-        -webkit-justify-content: center;
-        justify-content: center;
-        -webkit-box-align: center;
-        -ms-flex-align: center;
-        -webkit-align-items: center;
-        align-items: center;
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
       }
-      .bg-01 {
-        width: 100%;
-        height: 937px;
-        background: url(../images/home-banner.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+.bg-01 {
+    width: 100%;
+    height: 937px;
+    background: url(../images/home-banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     }
-    .bg-02 {
-        width: 100%;
-        height: 937px;
-        background: url(../images/home-banner-02.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+.bg-02 {
+    width: 100%;
+    height: 937px;
+    background: url(../images/home-banner-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     }
-    .bg-03 {
-        width: 100%;
-        height: 937px;
-        background: url(../images/home-banner-03.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: center;
+.bg-03 {
+    width: 100%;
+    height: 937px;
+    background: url(../images/home-banner-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     }
-    .maintxt>h3{
-        font-size: 40px;
-        color: #45211f;
-        position: absolute;
-        top: 25%;
-        left: 70%;
-        z-index: 99;
-    }
-
-    .maintxt>p{
-        font-size:100px;
-        color:#f6f6f6;
-        top: 29%;
-        left: 57%;
-        position: absolute;
-        z-index: 99;
-
-
-    
+.maintxt>h3{
+    font-size: 40px;
+    color: #45211f;
+    position: absolute;
+    top: 25%;
+    left: 70%;
+    z-index: 99;
+}
+.maintxt>p{
+    font-size:100px;
+    color:#f6f6f6;
+    top: 29%;
+    left: 57%;
+    position: absolute;
+    z-index: 99;
 }
 /*section01 end*/
 /*section02 start*/
@@ -146,25 +142,21 @@ html, body {
 .container-02 {
     width: 100%;
 }
-
 .main-txt {
     position: absolute;
     left: 57%;
     top: 35%;
     transform: translate(-50%, -50%);
-    
 }
 .main-txt>h1 {
     font-size: 120px;
     color:#cad5eb;
     font-weight: bold;
     letter-spacing: 10px;
- 
 }
 span{
     color: #ffffff;
 }
-
 .container-02 .left-contents {
     width: 50%;
     background: url(../images/section02-01.jpg);
@@ -206,18 +198,13 @@ span{
     width: 100%;
     color: #f6f6f6;
     font-size: 20px;
-
 }
-
 .container-03{
     width: 100%;
 }
-
 .contents-box {
     width: 100%;  
 }
-
-
 .contents-01 {
     width: 33.3%;
     height: 937px;
@@ -227,7 +214,6 @@ span{
     background-position: center;
     float: left;
     position: relative;
-   
 }
 .contents-02 {
     width: 33.3%;
@@ -263,7 +249,6 @@ span{
     font-size: 18px;
     padding: 2% 0;   
 }
-
 /*modal css*/
 .btnall{
     background: none;
@@ -271,13 +256,10 @@ span{
 }
 .btnall:hover{
     background: rgba(999,999,999,0.1);
-
 }
-
 .modal-btn{
     text-align: center;
 }
-
 .btn01{
     width: 70px;
     height: 40px;
@@ -295,7 +277,6 @@ span{
     display: none;
     z-index: 99;
 }
-
 .modal-content >.cablecar-img{
     width: 1400px;
     height: 700px;
@@ -303,7 +284,6 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
 .off{
     position: absolute;
@@ -311,8 +291,6 @@ span{
     top: 30px;
     cursor: pointer;
 }
-
-
 /**/
 .modal-btn-02 {
     text-align: center;
@@ -332,7 +310,6 @@ span{
     display: none;
     z-index: 99;
 }
-
 .modal-content-02 >.national-img{
     width: 1400px;
     height: 700px;
@@ -340,10 +317,7 @@ span{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-
 }
-
-
 .modal-btn-03 {
     text-align: center;
 }
@@ -351,7 +325,6 @@ span{
     width: 70px;
     height: 40px;
 }
-
 .modal-content-03{
     background: rgba(0,0,0,0
     5);
@@ -362,7 +335,6 @@ span{
     display: none;
     z-index: 99;
 }
-
 .modal-content-03 >.library-img{
     width: 1400px;
     height: 700px;
@@ -371,10 +343,9 @@ span{
     background-size: cover;
     background-position: center;
 }
-
 /*modal css end*/
-
 /*section03 end*/
+
 /*section04 start*/
 #section04 {
     width: 100%;
@@ -382,7 +353,6 @@ span{
 }
 .container-04 {
     width:100%;
-    
 }
 .left-box {
     width: 50%;
@@ -390,7 +360,6 @@ span{
     padding: 5% 10% 5% 10%;
     background: #e4e1e0;
 }
-
 .sec04-1{
     width:70%;
     height: 550px;
@@ -407,7 +376,6 @@ span{
     background-size: cover;
     background-position: center;
 }
-
 .sec04-3{
     width:70%;
     height: 550px;
@@ -430,7 +398,6 @@ span{
     padding: 5% 10% 5% 10%;
     background: #f5f4f4;
 }
-
 .sec04-5 {
     width:70%;
     height: 550px;
@@ -471,7 +438,6 @@ span{
     background-size: cover;
     background-position: center;
 }
-
 .left-bg-txt {
     width: 100%;
     text-align: center;
@@ -494,7 +460,6 @@ span{
 .swiper-button-next,.swiper-button-prev{
     color: #f6f6f6;
 }
-
 /*section04 end*/
 
 /*section05 start*/
@@ -509,7 +474,6 @@ span{
     font-size: 30px;
     padding: 1% 0;
 }
-
 .margin-1, .margin-2, .margin-3, .margin-5, .margin-6, .margin-7{
     margin-right: 0.26%;
 }
@@ -522,17 +486,16 @@ span{
     float: left;
     overflow: hidden;
 }
-
 .gallery-box1>img{
     width: 100%;
     height: 350px;
 }
-
 .gallery-box1 > img:hover{
     transform: scale(1.5);
     transition: 1s;
 }
 /*section05 end*/
+
 /*section06 start*/
 #section06 {
     background: #e4e1e0;
@@ -577,38 +540,29 @@ span{
     text-align: left;
     padding: 5% 2% 2% 2%;
 }
-
 .sec-06-text1{
     width: 100%;
     height: 200px;
     /* padding: 6% 6% 2% 5%; */
     line-height: 25px;
-   
-  
 }
 .sec-06-text1>h3:nth-child(1){
     font-size: 23px;
     font-weight: bold;
-    
 }
 .sec-06-text1>p:nth-child(2){
     padding-bottom: 2%;
-    
-   
 }
 .sec-06-text1>p:nth-child(3){
-  
     font-weight: bold;
     padding-bottom: 1%;
     color: lightcoral;
 }
 .sec-06-text1>p:nth-child(4){
   line-height: 28px;
-  
 }
 .sec-06-text1>p{
     font-size: 18px;
-    
 }
 .sec-06-text2,.sec-06-text3{
     width: 50%;
@@ -619,30 +573,23 @@ span{
 .sec-06-text2{
     padding-right: 5%;
 }
-
 .sec-06-text2>h3{
     font-size: 20px;
     padding: 5% 0 2% 0;
     font-weight: bold;
-   
 }
 .sec-06-text3>h3{
     font-size: 20px;
     padding: 5% 0 2% 0;
     font-weight: bold;
 }
-
 .sec-06-text2>p:nth-child(2n){
     font-size: 17px;
     font-weight: 600;
-    
-
-    
 }
 .sec-06-text3>p:nth-child(2n){
     font-size: 17px;
     font-weight: 600;
-   
 }
 .footer{
     font-size: 17px;
@@ -650,35 +597,47 @@ span{
     color: #333;
     padding-top:3% ;
 }
-
 /*section06 end*/
 
 /*nav*/
 .goust-menu{
     display: none;
 }
-
 .menu_box{
     top: 0;
-	width:100%; height:65px; color:#FFF; position:fixed; transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;
-z-index: 999 !important;
+	width:100%;
+    height:65px;
+    color:#FFF;
+    position:fixed;
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+    z-index: 999 !important;
 }
 	
-	.fixed{
-		background:rgba(87,82,85,0.5); transition:all 0.5s ease-in-out; -webkit-transition:all 0.5s ease-in-out;}
+.fixed{
+	background:rgba(87,82,85,0.5);
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;}
 	
-		.logo {float: left; padding: 0 0 0 20px;
-
+.logo {
+    float: left;
+    padding: 0 0 0 20px;
         }
 			
-		.menu_box > ul{
-			float:right; padding:0 35px 0 0;}
-			
-			.menu_box li{
-				float:left; text-align:center; width:100px; }
+.menu_box > ul{
+    float:right;
+    padding:0 35px 0 0;
+}
+.menu_box li{
+	float:left;
+    text-align:center;
+    width:100px; }
 				
-				.menu_box li a{
-					text-decoration:none; color:#FFF; line-height:100px; font-size:14px;}
+.menu_box li a{
+	text-decoration:none;
+    color:#FFF;
+    line-height:100px;
+    font-size:14px;}
 					
 					/**메뉴부분 마우스 오버시 색상 **/
 					.menu_box li a:hover{
@@ -698,7 +657,7 @@ z-index: 999 !important;
                         
 /*media~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
- @media(max-width:1100px){
+ @media(max-width:1475px){
     .right-contents>.text{
         width: 50%;
         margin-top: 500px;
@@ -817,9 +776,7 @@ z-index: 999 !important;
         top: 30px;
       
     }
-    .ul>li{
-        z-index: 99;
-    }
+   
     /*navi end*/
     
     .maintxt>h3{
@@ -1025,8 +982,23 @@ z-index: 999 !important;
     }
     
 /*section05 start*/
-
+.gallery-box1{
+    width: 49%;
+}
 /*section05 */
+/*section06 start*/
+.sec-06-text{
+    width: 100%;
+}
+
+.map_box {
+    width: 100%;
+}
+.sec-06-rightcontent{
+    width: 100%;
+}
+/*section06 end*/
+
 
 
 /*~~~~~~~~~~~~~~621px~~~~~~~~~~~~~*/
@@ -1143,6 +1115,9 @@ z-index: 999 !important;
 .gallery-box1{
     width: 100%;
 }
+/*section06 start*/
+
+
 .sec-06-text{
     width: 100%;
 
@@ -1196,7 +1171,7 @@ font-size: 17px;
 }
 
 
-.
+
 .sec-06-text2>h3{
     font-size: 18px;
    
@@ -1224,11 +1199,9 @@ font-size: 17px;
     
 }
     /*section01 end*/
-    }
 
 
 
-}
 /*414px*/
 
 
@@ -1471,7 +1444,7 @@ font-size: 17px;
 }
 
 
-.
+
 .sec-06-text2>h3{
     font-size: 18px;
    
