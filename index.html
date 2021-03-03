@@ -13,7 +13,8 @@
     <script src="http://code.jquery.com/jquery.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="css/style2.css">
     
     
 </head>
@@ -41,11 +42,6 @@
                 <li><a href="#section05">남산갤러리</a></li>
                 <li><a href="#section06">지도</a></li>
             </ul>
-            <div class="goust-menu">
-                <i class="fas fa-bars"></i>
-            </div>
-            <div class="clearfix"></div>
-            
             <!--navi end-->
         </div>
         <div class="maintxt">
@@ -222,6 +218,8 @@
             <p>SEOUL NAMSAN</p>
         </div>
           <div class="container-06">
+              
+    
               <div class="sec-06-contents clearfix">
                 <div class="map_box">   
                 <div id="map"></div>
@@ -239,7 +237,8 @@
                             
                             모든 순환버스의 종점은 남산서울타워입니다. 주변 풍경을 즐기시다가 종점에서 하차하세요.</p>
                     </div>
-                    <div class="sec-06-text2">
+
+                    <div class="sec-06-text2 clearfix">
                         <h3>02번 버스</h3>
                         <p>지하철 연계 탑승장</p>
                         <p>
@@ -268,15 +267,6 @@
               <p>copyright&copy;</p>
           </div>
       </div>
-
-      <script>
-          $(function(){
-              $(".goust-menu").click(function(){
-                  $(".ul").slideToggle();
-              });
-          });
-      </script>
-
 
     <script>
         /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/

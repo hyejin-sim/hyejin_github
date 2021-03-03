@@ -1,10 +1,4 @@
-/* reset */
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-
+/*reset start*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -64,18 +58,17 @@ html, body {
     width: 100%;
     height: 100%;
 }
-
 /*reset css end*/
 
-
-/*section01 start*/
+/*-------section01 start---------*/
 #section01{
     width: 100%;
     z-index: 50;
-    position: relative;}
+    position: relative;
+}
 .swiper-container {
     width: 100%;
-      }
+}
 .swiper-slide {
     text-align: center;
     font-size: 18px;
@@ -93,7 +86,7 @@ html, body {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-      }
+}
 .bg-01 {
     width: 100%;
     height: 937px;
@@ -101,7 +94,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    }
+}
 .bg-02 {
     width: 100%;
     height: 937px;
@@ -109,7 +102,7 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    }
+}
 .bg-03 {
     width: 100%;
     height: 937px;
@@ -117,26 +110,26 @@ html, body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    }
+}
 .maintxt>h3{
-    font-size: 40px;
+    font-size: 30px;
     color: #45211f;
     position: absolute;
     top: 25%;
-    left: 70%;
-    z-index: 99;
-}
-.maintxt>p{
-    font-size:100px;
-    color:#f6f6f6;
-    top: 29%;
-    left: 57%;
-    position: absolute;
+    left: 71%;
     z-index: 99;
 }
 
-/*section01 end*/
-/*section02 start*/
+.maintxt>p{
+    font-size:80px;
+    color:#f6f6f6;
+    top: 28%;
+    left: 60%;
+    position: absolute;
+    z-index: 99;
+}
+/*---------section01 end---------*/
+/*---------section02 start---------*/
 #section02 {
     position: relative;
 }
@@ -191,10 +184,8 @@ span{
     font-size: 18px;
     line-height: 20px;
 }
-/*section02 end*/
-
-
-/*section03 start*/
+/*---------section02 end-----------*/
+/*---------section03 start-----------*/
 #section03{
     width: 100%;
     color: #f6f6f6;
@@ -292,7 +283,7 @@ span{
     top: 30px;
     cursor: pointer;
 }
-/**/
+/*modal 2*/
 .modal-btn-02 {
     text-align: center;
 }
@@ -311,6 +302,7 @@ span{
     display: none;
     z-index: 99;
 }
+
 .modal-content-02 >.national-img{
     width: 1400px;
     height: 700px;
@@ -345,15 +337,16 @@ span{
     background-position: center;
 }
 /*modal css end*/
-/*section03 end*/
 
-/*section04 start*/
+/*-------------section03 end------------*/
+/*-------------section04 start----------*/
 #section04 {
     width: 100%;
     position: relative;
 }
 .container-04 {
     width:100%;
+    
 }
 .left-box {
     width: 50%;
@@ -361,6 +354,7 @@ span{
     padding: 5% 10% 5% 10%;
     background: #e4e1e0;
 }
+
 .sec04-1{
     width:70%;
     height: 550px;
@@ -377,6 +371,7 @@ span{
     background-size: cover;
     background-position: center;
 }
+
 .sec04-3{
     width:70%;
     height: 550px;
@@ -399,6 +394,7 @@ span{
     padding: 5% 10% 5% 10%;
     background: #f5f4f4;
 }
+
 .sec04-5 {
     width:70%;
     height: 550px;
@@ -439,6 +435,7 @@ span{
     background-size: cover;
     background-position: center;
 }
+
 .left-bg-txt {
     width: 100%;
     text-align: center;
@@ -461,8 +458,7 @@ span{
 .swiper-button-next,.swiper-button-prev{
     color: #f6f6f6;
 }
-/*section04 end*/
-
+/*------------section04 end-------------*/
 /*section05 start*/
 #section05 {
     padding: 4% 0 6% 0;   
@@ -475,6 +471,7 @@ span{
     font-size: 30px;
     padding: 1% 0;
 }
+
 .margin-1, .margin-2, .margin-3, .margin-5, .margin-6, .margin-7{
     margin-right: 0.26%;
 }
@@ -487,16 +484,17 @@ span{
     float: left;
     overflow: hidden;
 }
+
 .gallery-box1>img{
     width: 100%;
     height: 350px;
 }
+
 .gallery-box1 > img:hover{
     transform: scale(1.5);
     transition: 1s;
 }
-/*section05 end*/
-
+/*--------------section05 end-----------------*/
 /*section06 start*/
 #section06 {
     background: #e4e1e0;
@@ -514,15 +512,15 @@ span{
     width: 100%;
     text-align: left;
     font-size: 30px;
-    padding: 1% 0;
+    padding: 1% 0 0 0;
     padding-left: 10%;
 }
 .sec-06-text>h3{
-    padding-bottom: 1%;
     line-height: 35px;
 }
 .sec-06-text>p{
     font-size: 18px;
+    padding: 1% 0;
 }
 .map_box {
     width: 48%;
@@ -544,7 +542,6 @@ span{
 .sec-06-text1{
     width: 100%;
     height: 200px;
-    /* padding: 6% 6% 2% 5%; */
     line-height: 25px;
 }
 .sec-06-text1>h3:nth-child(1){
@@ -557,13 +554,13 @@ span{
 .sec-06-text1>p:nth-child(3){
     font-weight: bold;
     padding-bottom: 1%;
-    color: lightcoral;
+    color: #9b433f;
 }
 .sec-06-text1>p:nth-child(4){
   line-height: 28px;
 }
 .sec-06-text1>p{
-    font-size: 18px;
+    font-size: 18px; 
 }
 .sec-06-text2,.sec-06-text3{
     width: 50%;
@@ -601,15 +598,13 @@ span{
 /*section06 end*/
 
 /*nav*/
-.goust-menu{
-    display: none;
-}
+
 .menu_box{
     top: 0;
 	width:100%;
     height:65px;
-    color:#FFF;
-    position:fixed;
+    color:#FFF; 
+    position:fixed; 
     transition:all 0.5s ease-in-out;
     -webkit-transition:all 0.5s ease-in-out;
     z-index: 999 !important;
@@ -618,390 +613,251 @@ span{
 .fixed{
 	background:rgba(87,82,85,0.5);
     transition:all 0.5s ease-in-out;
-    -webkit-transition:all 0.5s ease-in-out;}
-	
+    -webkit-transition:all 0.5s ease-in-out;
+}	
 .logo {
     float: left;
     padding: 0 0 0 20px;
-        }
+}
 			
 .menu_box > ul{
-    float:right;
+	float:right;
     padding:0 35px 0 0;
 }
+			
 .menu_box li{
 	float:left;
     text-align:center;
-    width:100px; }
-				
+    width:100px; 
+}		
 .menu_box li a{
-	text-decoration:none;
-    color:#FFF;
-    line-height:100px;
-    font-size:14px;}
-					
-					/**메뉴부분 마우스 오버시 색상 **/
-					.menu_box li a:hover{
-						border-top:2px solid #171717; padding-top:40px; color:#171717;}
-						
-					.menu_box li:nth-child(2) a:hover{
-						border-top:2px solid #171717; padding-top:40px; color:#171717;}
-						
-					.menu_box li:nth-child(3) a:hover{
-						border-top:2px solid #171717; padding-top:40px; color:#171717;}
-						
-					.menu_box li:nth-child(4) a:hover{
-						border-top:2px solid #171717; padding-top:40px; color:#171717;}
-						
-					.menu_box li:nth-child(5) a:hover{
-						border-top:2px solid #171717; padding-top:40px; color:#171717;}
-                        
-/*media~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+	text-decoration:none; color:#FFF; line-height:100px; font-size:14px;}					
+/**메뉴부분 마우스 오버시 색상 **/
+.menu_box li a:hover{
+	border-top:2px solid #171717;
+    padding-top:40px;
+    color:#171717;
+}				
+.menu_box li:nth-child(2) a:hover{
+    border-top:2px solid #171717;
+    padding-top:40px;
+    color:#171717;
+}					
+.menu_box li:nth-child(3) a:hover{
+	border-top:2px solid #171717; 
+    padding-top:40px;
+    color:#171717;}				
+.menu_box li:nth-child(4) a:hover{
+	border-top:2px solid #171717;
+    padding-top:40px;
+    color:#171717;}					
+.menu_box li:nth-child(5) a:hover{
+    border-top:2px solid #171717;
+    padding-top:40px;
+    color:#171717;}
 
- @media(max-width:1475px){
-    .right-contents>.text{
-        width: 50%;
-        margin-top: 500px;
-        margin-left: 50%;
-    }
-    /*section03-media*/
-    .contents-01 {
-        height: 800px;
-    }
-    .contents-02 {
-        height: 800px;
-    }
-    .contents-03 {
-        height: 800px;
-    }
-    .sec03-txt>p{
-        letter-spacing: none;
-        line-height: 20px;
-        font-size: 16px;
-    }
-    /*modal css*/
-    .modal-content >.cablecar-img{
-        width: 800px;
-        height: 400px;
-    }
+    /*-----------------main css end-----------------*/
+
+    /*-------------------media start------------------*/
+    /*--1100px--*/
+    @media(max-width:1100px){
+        .maintxt>h3{
+            font-size: 30px;
+            color: #45211f;
+            position: absolute;
+            top: 25%;
+            left: 79%;
+            z-index: 99;
+        }
+        .main-txt {
+            left: 63%;
+        }
+        .right-contents>.text{
+            width: 60%;
+            margin-left: 35%;
+        }
+        .sec03-txt>p{
+            letter-spacing: -2.5px;
+            padding: 1% 0;   
+        }
+        /*modal css*/
+        .modal-content >.cablecar-img{
+            width: 1000px;
+            height: 500px;
+        }
+        /*modal 2*/
     
-    .modal-content-02 >.national-img{
-        width: 800px;
-        height: 400px;
+        .modal-content-02 >.national-img{
+            width: 1000px;
+            height: 500px;
+        }
+        .modal-content-03 >.library-img{
+            width: 1000px;
+            height: 500px;
+        }
+        .sec04-1{
+            height:500px;
+        }
+        .sec04-2{
+            height: 500px;
+        }
+        .sec04-3{
+            height: 500px;
+        }
+        .sec04-4{
+            height: 500px;
+        }
+        .sec04-5 {
+            height: 500px;
+        }
+        .sec04-6 {
+            height: 500px;
+        }
+        .sec04-7 {
+            height: 500px;
+        }
+        .sec04-8 {
+            height: 500px;
+        }
+        .sec04-9 {
+            height: 500px;
+        }
+     
+        .sec04-txt>h3{
+            font-size: 26px;
+            padding: 23px 0 23px 0;
+        }
+        .sec04-txt>p{
+            font-size: 18px;
+            letter-spacing: -2px;
+            line-height: 43px; 
+        }
+        .right-box{
+            padding:5% 10% 7.5% 10% ;
+        }
+        .sec-06-text2{
+            padding-top: 6%;
+        }
+        .sec-06-text3{
+            padding-top: 6%;
+        }
+    }
+    /*-------------------------------768px-----------------------------*/
+    @media(max-width:768px){
+     
+        .maintxt>p{
+            left: 51%;
+        }
+        .main-txt {
+            left: 68%;
+        }
+        .main-txt>h1 {
+            font-size: 80px;
+        }
+        .right-contents>.text {
+            width: 80%;
+            margin-left: 10%;
+        }
+        .contents-01 {
+            width: 100%;
+        }
+        .contents-02 {
+            width: 100%;
+        }
+        .contents-03 {
+            width: 100%;
+        }
+        /*modal css*/
+        .modal-content >.cablecar-img{
+            width: 700px;
+            height: 350px;
+        }
+        /*modal 2*/
     
-    }
-    .modal-content-03 >.library-img{
-        width: 800px;
-        height: 400px;
-    }
-/*section03 media end*/    
+        .modal-content-02 >.national-img{
+            width: 700px;
+            height: 350px;
+        }
+        .modal-content-03 >.library-img{
+            width: 700px;
+            height:350px;
+        }
+        .modal-content{
+            top: 20%;
+        }
+        .modal-content-03{
+            top: 85%;
+        }
 
-.sec04-1{
-    height: 450px;
-}
-.sec04-2{
-    height: 450px;
-}
-.sec04-3{
-    height: 450px;
-}
-.sec04-4{
-    height: 450px;
-}
-.right-box {
-    width: 50%;
-    float: left;  
-    padding: 5% 10% 5% 10%;
-    background: #f5f4f4;
-}
-.sec04-5 {
-    height: 450px;
-}
-.sec04-6 {
-    height: 450px;
-}
-.sec04-7 {
-    height: 450px;
-}
-.sec04-8 {
-    height: 450px;
-}
-.sec04-9 {
-    height: 450px;
-}
-.sec04-txt>h3{
-    font-size: 20px;
-    padding: 33px 0 13px 0;
-}
-.sec04-txt>p{
-    font-size: 18px;
-    letter-spacing: 0.5px;
-    line-height: 25px; 
-}
-.gallery-box1>img{
-    width: 100%;
-    height: 350px;
-}
-.gallery-box1 > img:hover{
-    transform: scale(1.5);
-    transition: 1s;
-}
-.sec-06-text{
-    width: 30%;
-}
-.map_box {
-    width: 100%;
-}
-#map {
-    width: 100%;
-}
-.sec-06-rightcontent{
-    width: 100%;
-}
-.sec-06-text1{
-    width: 100%;
-}
-}
-/*media 768px start*/
-@media(max-width:768px){
-
-    /*navi*/
-    .ul{
-        display: none;
-    }
-    .goust-menu{
-        display: block;
-        cursor: pointer;
-        position: absolute;
-        right: 20px;
-        top: 30px;
-      
-    }
-   
-    /*navi end*/
-    
-    .maintxt>h3{
-        font-size: 40px;
-        color: #45211f;
-        position: absolute;
-        top: 24%;
-        left: 67%;
-    }
-    .maintxt>p{
-        font-size:60px;
-        color:#f6f6f6;
-        top: 29%;
-        left: 57%;
-        position: absolute;
-    }
-    .container>.left-contents {
-        width: 100%;
-        margin-left: 0;
-    }
-    .container>.right-contents {
-        width: 100%; 
-    }
-    .main-txt {
-        left: 48%;
-        top: 20%;
-        transform: translate(0, 0);
-    }
-    .main-txt>h1 {
-        text-align: center;
-        font-size: 80px;
-    }
-    .right-contents>.text{
-        width: 50%;
-        /* margin-top: 500px; */
-        margin: 0 auto;
-    } */
-    /*section02 start*/
-
-    .main-txt {
-        position: absolute;
-        left: 48%;
-        top: 22%;
-    }
-.main-txt>h1 {
-    font-size: 50px;
-    color:#ffffff;
-}
-.container-02 .left-contents {
-    width: 100%;
-    height: 500px;
-    margin-top: 0;
-}
-.container-02 .right-contents {
-    width: 100%;
-    height: 500px;
-    position: relative;
-    float: left;
-  
-}
-
-.right-contents>.text{
-    width: 67%;
-    position: absolute;
-    top: 50%;
-    transform:translateY(-50%);
-    left: 0;
-    right: 0;
-    margin: 0 auto;
-}
-
-/*section02 end*/
-/*section03 start*/
-
-#section03{
-    width: 100%;
- }
+        .left-box {
+            width: 100%;
+        }
+        .right-box {
+            width: 100%;
+        }
+        #section05 {
+            padding: 4% 0 6% 0;   
+        }
+        .container-05{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .container-05>h3{
+            font-size: 30px;
+            padding: 1% 0;
+        }
+        .margin-7,.margin-8 {
+            display: none;
+        }
         
-.contents-box{
-    width: 100%;
-}
-.content-03-txt {
-    padding-top: 500px;
-    text-align: center;
-           
-}
-.content-03-txt>p:nth-child(2){
-    width: 50%;
-    margin: 0 auto;
-    text-align: center;
-
-}
-.contents-01 {
-    width: 100%;
-    height: 700px;
-   
-}
-.contents-02 {
-    width: 100%;
-    height: 700px;
-    
-}
-.contents-03 {
-    width: 100%;
-    height: 700px;
-   
-}
-
- /*modal css*/
-    .modal-content{
-        background: rgba(0,0,0,0
-        5);
-        top: 17%;
-    }
-    .modal-content >.cablecar-img{
-        width: 600PX;
-        height: 300px;
-    }
-    /**/
-    .modal-content-02{
-        background: rgba(0,0,0,0
-        5);
-    }
-    .modal-content-02 >.national-img{
-        width: 600px;
-        height: 300px;
-    }
-   .modal-content-03{
-        background: rgba(0,0,0,0
-        5);
-        position: absolute;
-        top: 84%;
-    }
-    .modal-content-03 >.library-img{
-        width: 600px;
-        height: 300px;
-    }
-
-
-    /*modal css end*/          
-
-
-
-
-
-    /*section03 end*/
-    /*section04 start*/
-   
-    .left-box {
-        width: 50%; 
-        padding: 85px 0 51px 0;
-        background: #e4e1e0;
-    }
-    .right-box {
-        width: 50%;
-        padding: 85px 0 51px 0;
-        background: #f5f4f4;
-    }
-    .left-bg {
-        height: 400px;}
+        .margin-1, .margin-2, .margin-4, .margin-5 {
+            margin-right: 0.7%;
+        }
+        .margin-4, .margin-5, .margin-6{
+            margin-top: 0.6%;
+        }
+        .margin-1, .margin-4{
+            margin-left: 0.35%;
+        }
+        .gallery-box1{
+            width: 32.5%
+        }
         
-    .right-bg {
-        height: 400px;
-    }
-
-    .sec04-1{
-        height: 400px;
-    }
-    .sec04-2{
-        height: 400px;
-    }
-    .sec04-3{
-        height: 400px;
-    }
-    .sec04-4{
-        height: 400px;
-    }
+        .sec-06-text{
+            width: 100%;
+        }
     
-    .sec04-5 {
-        height: 400px;
-    }
-    .sec04-6 {
-        height: 400px;
-    }
-    .sec04-7 {
-        height: 400px;
-    }
-    .sec04-8 {
-        height: 400px;
-    }
-    .sec04-9 {
-        height: 400px;
-    }
-    .sec04-txt>h3{
-        font-size: 20px;
-    }
-    .sec04-txt>p{
-        font-size: 15px;
-        line-height: 35px; 
-    }
-    .right-box{
-        padding-bottom: 11%;
-    }
+        .map_box {
+            width: 100%;
+        }
     
-/*section05 start*/
-.gallery-box1{
-    width: 49%;
-}
-/*section05 */
-/*section06 start*/
-.sec-06-text{
-    width: 100%;
-}
+        .sec-06-rightcontent{
+            width: 100%;
+        }
+        .sec-06-text2,.sec-06-text3{
+            width: 50%;
+        }    
+    }
+    /*------------------------600px------------------*/
+    @media(max-width:600px){
+        .maintxt>p {
+            left: 28%;
+        }
+        .maintxt>h3{
+            left: 64%;
+        }
 
-.map_box {
-    width: 100%;
+        .main-txt>h1 {
+            font-size: 65px;
+        }
+        .right-contents>.text>h3 {
+            font-size: 20px;
+        }
+        .right-contents>.text>p {
+            font-size: 17px;
+    }
 }
-.sec-06-rightcontent{
-    width: 100%;
-}
-}
-/*section06 end*/
-
-/*~~~~~~~~414px start~~~~~~~~~~~~~~~~~~~~~~*/
+/*------------------------------414px------------------*/
 @media(max-width:414px){
     #section01{
         width:100%;
@@ -1021,82 +877,103 @@ span{
     #section06{
         width:100%;
     }
-    .menu_box .ul{
+    /* .menu_box .ul{
         display: none;
-    }
-    .maintxt>h3{
-        font-size: 32px;
-        top: 23%;
-        left: 29%;
+    } */
+    /*sec1*/
+    .maintxt>h3 {
+        font-size: 25px;
+        top: 28%;
+        left: 66%;
     }
     .maintxt>p{
-        font-size: 34px;
-        top: 28%;
-        left: 16%;
+        font-size: 41px;
+        top: 31%;
+        left: 49%;
     }
-    /*section02 start*/
-
+    /*---------section02 start---------*/
+   
+    
+    .main-txt {
+        left: 53%;
+        top: 16%;
+    
+    }
+    .main-txt>h1 {
+        font-size: 60px;
+        color: #f9f9f9;
+        font-weight: bold;
+        letter-spacing: 3px;
+    }
     .container-02 .left-contents {
-    height: 500px;
+        width: 100%;
+        height: 400px;   
+        margin-top: 45px;
     }
     .container-02 .right-contents {
-    height:437px;
+        width: 100%;
+        height: 451px;
+    }
+    .right-contents>.text{
+        width: 90%;
+        margin-top: 50%;
+        margin-left: 5%;
     }
 
-    .right-contents>.text>h3{
-    font-size: 20px;
-
-    }
     .right-contents>.text>p{
-    font-size: 16px;
-  
+        font-size: 16px;
     }
-    /*section02 end*/
+/*---------section02 end-----------*/
+/*---------section03 start-----------*/
 
-
-    /*section03 start*/
 
 .contents-01 {
     width: 100%;
-    height: 667px;
+    height: 896px;
 }
 .contents-02 {
     width: 100%;
-    height: 667px;
+    height: 896px;
 }
 .contents-03 {
     width: 100%;
-    height: 667px;
+    height: 896px;
 }
-.sec03-txt>h3{
-    font-size: 18px;
-}
-.sec03-txt>p{
+.sec03-txt>p {
+    text-align: center;
+    letter-spacing: -0.5px;
+    line-height: 29px;
     font-size: 16px;
+    padding: 2% 0;
 }
-
 /*modal css*/
 
-.modal-content >.cablecar-img{
-    width: 360px;
-    height: 180px;
+
+.modal-content{
+    top: 16%;
 }
+.modal-content >.cablecar-img{
+    width: 400px;
+    height: 200px;
+}
+
+/*modal 2*/
 
 .modal-content-02 >.national-img{
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 200px; 
 }
-
+.modal-content-03{
+    top: 84%;
+}
 .modal-content-03 >.library-img{
-    width: 360px;
-    height: 180px;
+    width: 400px;
+    height: 200px;
 }
-
 /*modal css end*/
 
-/*section03 end*/
-/*section04 start*/
-
+/*-------------section03 end------------*/
+/*-------------section04 start------------*/
 .left-box {
     width: 100%;
     padding: 20% 0 20% 0;
@@ -1155,9 +1032,16 @@ span{
     letter-spacing: 1px;
     line-height: 20px; 
 }
+/*------------section04 end------------*/
+/*------------section05 start------------*/
 #section05 {
     padding: 4% 0 6% 0;   
 }
+.margin-7, .margin-8{
+    display: block;
+}
+
+
 
 .margin-1, .margin-2, .margin-3, .margin-5, .margin-6, .margin-7{
     margin-right: 0.26%;
@@ -1166,8 +1050,11 @@ span{
     margin-top: 0.26%;
 }
 .gallery-box1{
-    width: 100%;
+    width: 49%;
 }
+
+/*------------section05 end------------*/
+/*------------section06 start------------*/
 /*section06 start*/
 
 
@@ -1212,31 +1099,50 @@ font-size: 17px;
 
 .sec-06-text1>p{
     font-size: 16px;
+    
 }
 .sec-06-text2{
     width: 100%;
-    padding-top:40%;
+    padding-top:20%;
 }
 .sec-06-text3{
     width: 100%;
-    padding-top:15%;
+    padding-top:10%;
+    padding-bottom: -10%;
 }
 .sec-06-text2>h3{
     font-size: 18px;
+   
+   
 }
 .sec-06-text3>h3{
-    font-size: 18px;  
+    font-size: 18px;
+    
 }
+
 .sec-06-text2>p:nth-child(2n){
-    font-size: 16px; 
+    font-size: 16px;
+ 
+    
+
+    
 }
 .sec-06-text3>p:nth-child(2n){
     font-size: 16px;
+
+   
 }
 .footer{
     font-size: 16px;
+    
 }
-}
-/*~~~~~~~~414px end~~~~~~~~~~~~~~~~~~~~~~*/
+    /*section01 end*/
+    }
+/*------------section06 end------------*/
+
+
+
+/*end*/
+    
 
 
