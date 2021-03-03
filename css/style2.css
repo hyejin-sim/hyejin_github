@@ -190,6 +190,7 @@ span{
     width: 100%;
     color: #f6f6f6;
     font-size: 20px;
+    position: relative;
 }
 .container-03{
     width: 100%;
@@ -259,31 +260,7 @@ span{
 .container-03 .contents-box{
     position: relative;
 }
-.modal-content{
-    background: rgba(0,0,0,0
-    5);
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 99;
-}
-.modal-content >.cablecar-img{
-    width: 1400px;
-    height: 700px;
-    background: url(../images/cablecar.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.off{
-    position: absolute;
-    right: 20px;
-    top: 30px;
-    cursor: pointer;
-}
-/*modal 2*/
+
 .modal-btn-02 {
     text-align: center;
 }
@@ -292,49 +269,79 @@ span{
     height: 40px;
 }
 
-.modal-content-02{
-    background: rgba(0,0,0,0
-    5);
+.modal_01{
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
     z-index: 99;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    top: 0;
+}
+.cablecar-img > img{
+    width: 100%;
+    height: 100%;
+}
+.x{
+    font-size: 3rem;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+}
+.modal_02{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    top: 0;
+}
+.x2{
+    font-size: 3rem;
+    position: absolute;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
+}
+.national-img > img {
+    width: 100%;
+    height: 100%;
+}
+.modal_03{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    top: 0;
 }
 
-.modal-content-02 >.national-img{
-    width: 1400px;
-    height: 700px;
-    background: url(../images/national.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-}
-.modal-btn-03 {
-    text-align: center;
-}
-.btn03{
-    width: 70px;
-    height: 40px;
-}
-.modal-content-03{
-    background: rgba(0,0,0,0
-    5);
+.x3{
+    font-size: 3rem;
     position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    display: none;
-    z-index: 99;
+    right: 20px;
+    top: 0;
+    cursor: pointer;
 }
-.modal-content-03 >.library-img{
+.modal_03 >.library-img{
     width: 1400px;
     height: 700px;
     background: url(../images/library.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    transform: translate(17%, 17%);
+}
+
+.modal-btn-03 {
+    text-align: center;
+}
+.btn03{
+    width: 70px;
+    height: 40px;
 }
 /*modal css end*/
 
@@ -681,20 +688,24 @@ span{
             padding: 1% 0;   
         }
         /*modal css*/
-        .modal-content >.cablecar-img{
+        /* .modal_01 >.cablecar-img{
             width: 1000px;
             height: 500px;
+            transform: translate(5%, 45%);
         }
-        /*modal 2*/
-    
-        .modal-content-02 >.national-img{
+        
+        .modal_02 >.national-img{
             width: 1000px;
             height: 500px;
+            transform: translate(5%, 30%);
         }
-        .modal-content-03 >.library-img{
+        .modal_03 >.library-img{
             width: 1000px;
             height: 500px;
-        }
+            transform: translate(5%, 40%);
+           
+
+        } */
         .sec04-1{
             height:500px;
         }
@@ -768,13 +779,13 @@ span{
             width: 100%;
         }
         /*modal css*/
-        .modal-content >.cablecar-img{
+        /* .modal-content >.cablecar-img{
             width: 700px;
             height: 350px;
-        }
+        } */
         /*modal 2*/
     
-        .modal-content-02 >.national-img{
+        /* .modal-content-02 >.national-img{
             width: 700px;
             height: 350px;
         }
@@ -787,7 +798,7 @@ span{
         }
         .modal-content-03{
             top: 85%;
-        }
+        } */
 
         .left-box {
             width: 100%;
@@ -949,17 +960,17 @@ span{
 /*modal css*/
 
 
-.modal-content{
+/* .modal-content{
     top: 16%;
 }
 .modal-content >.cablecar-img{
     width: 400px;
     height: 200px;
-}
+} */
 
 /*modal 2*/
 
-.modal-content-02 >.national-img{
+/* .modal-content-02 >.national-img{
     width: 400px;
     height: 200px; 
 }
@@ -969,7 +980,7 @@ span{
 .modal-content-03 >.library-img{
     width: 400px;
     height: 200px;
-}
+} */
 /*modal css end*/
 
 /*-------------section03 end------------*/

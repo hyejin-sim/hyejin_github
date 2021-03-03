@@ -10,10 +10,9 @@
     <!-- 파비콘 -->
     <title>남산 원페이지</title>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-    <!-- <link rel="stylesheet" href="css/style.css"> -->
     <link rel="stylesheet" href="css/style2.css">
     
     
@@ -106,21 +105,30 @@
                         
                     </div>
                 </div>
-                
-                <div class="modal-content">
-                    <div class="cablecar-img"></div>
-                    <div class="off"><span>X</span></div>
-                </div>
-                <div class="modal-content-02">
-                    <div class="national-img"></div>
-                    <div class="off"><span>X</span></div>
-                </div>
-                <div class="modal-content-03">
-                    <div class="library-img"></div>
-                    <div class="off"><span>X</span></div>
-                </div>
-           
+            </div>
             <div class="clearfix"></div>
+
+            <div class="modal_01">
+                <div class="cablecar-img">
+                    <img src="images/cablecar.jpg" alt="">
+                </div>
+                <div class="x">
+                    <span>x</span>
+                </div>
+            </div>
+            <div class="modal_02">
+                <div class="national-img">
+                    <img src="images/national.jpg" alt="">
+                </div>
+                <div class="x2">
+                    <span>x</span>
+                </div>
+            </div>
+            <div class="modal_03">
+                <div class="library-img"></div>
+                <div class="x3">
+                    <span>x</span>
+                </div>
             </div>
             
         </div>
@@ -360,45 +368,29 @@ function displayMarker() {
 <script>
     $(function(){
         $(".btn01").click(function(){
-            $(".modal-content").fadeIn()
+            $(".modal_01").fadeIn();
         });
-        $(".off").click(function(){
-            $(".modal-content").fadeOut();
+        $(".x").click(function(){
+            $(".modal_01").fadeOut();
         });
-
-
-    });
-
-</script>
-
-<script>
-    $(function(){
         $(".btn02").click(function(){
-            $(".modal-content-02").fadeIn()
+            $(".modal_02").fadeIn();
         });
-        $(".off").click(function(){
-            $(".modal-content-02").fadeOut();
+        $(".x2").click(function(){
+            $(".modal_02").fadeOut();
         });
-
-
-    });
-
-</script>
-<script>
-    $(function(){
         $(".btn03").click(function(){
-            $(".modal-content-03").fadeIn()
+            $(".modal_03").fadeIn();
         });
-        $(".off").click(function(){
-            $(".modal-content-03").fadeOut();
+        $(".x3").click(function(){
+            $(".modal_03").fadeOut();
         });
-
-
     });
 
+
 </script>
+
+
 <!-- modal end -->
-
-
 </body>
 </html>
