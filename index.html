@@ -29,7 +29,7 @@
        
 
 
-        <div class="menu_box">
+        <div class="menu_box  clearfix">
             <div class="logo">
                <a href="#section01"> <img src="images/main_logo.png" alt=""></a></div>
             <!-- navi start   -->
@@ -41,6 +41,10 @@
                 <li><a href="#section05">남산갤러리</a></li>
                 <li><a href="#section06">지도</a></li>
             </ul>
+
+            <div class="goustmenu">
+                <i class="fas fa-bars"></i>
+            </div>
             <!--navi end-->
         </div>
         <div class="maintxt">
@@ -125,7 +129,9 @@
                 </div>
             </div>
             <div class="modal_03">
-                <div class="library-img"></div>
+                <div class="library-img">
+                    <img src="images/library.jpg" alt="">
+                </div>
                 <div class="x3">
                     <span>x</span>
                 </div>
@@ -389,8 +395,18 @@ function displayMarker() {
 
 
 </script>
-
-
 <!-- modal end -->
+
+<!-- nav start -->
+<script>
+    $(function(){
+        $(".goustmenu").click(function(){
+            $(".ul").slideToggle();
+        });
+    });
+</script>
+</script>
+
+<!-- nav end -->
 </body>
 </html>
