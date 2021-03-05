@@ -844,27 +844,29 @@ span{
             width: 50%;
         }    
         .ul{
-            display: none;
+            position: absolute;
+            top:65px;
+            
             width: 100%;
-            height: 937PX;
-            background: rgba(0,0,0,0.5);
+            height: 350PX;
+            
+            background:rgba(87,82,85,0.5);
         }
         
         .menu_box{
             top: 0;
             width:100%;
-            
-            color:#FFF; 
+            background:rgba(87,82,85,0.5); 
             position:fixed; 
             transition:none;
             -webkit-transition:none;
             z-index: 999 !important;
+
         }
             
         .fixed{
             background:rgba(87,82,85,0.5);
             transition:all 0.5s ease-in-out;
-            
             -webkit-transition:all 0.5s ease-in-out;
         }	
         .logo {
@@ -873,16 +875,16 @@ span{
         }
                     
         .menu_box > ul{
-            float:left;
-            padding:0 35px 0 0;
+            float:none;
+            padding:0 0 0 0;
         }
                     
         .menu_box li{
-            margin-top: 100px;
-            float:left;
+            margin-top: 40px;
+            float:revert;
             text-align:left;
             width:100px; 
-            margin-left: 15px;
+            margin-left: 18px;
         }		
         .menu_box li a{
             text-decoration:none;
