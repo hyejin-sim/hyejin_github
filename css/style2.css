@@ -804,13 +804,19 @@ span{
         #section05 {
             padding: 4% 0 6% 0;   
         }
+       
         .container-05{
             width: 80%;
             margin: 0 auto;
+            
         }
         .container-05>h3{
             font-size: 30px;
             padding: 1% 0;
+        }
+       
+        .margin-3,.margin-4,.margin-5,.margin-6,.margin-7,.margin-8{
+            display: none;
         }
         .margin-7,.margin-8 {
             display: none;
