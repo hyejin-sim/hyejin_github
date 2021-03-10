@@ -46,6 +46,7 @@
             </nav>
         </div>
     </header>
+   
     <!-- header end -->
 
     <div class="container-fluid bg-1 text-center">
@@ -56,6 +57,7 @@
         <p>그리고 어른들도요! " </p> -->
     </div>
     <!-- main end -->
+ 
 
     <div class="container-fluid bg-2 bg-light">
         <div class="row">
@@ -75,71 +77,35 @@
 </div>
 
 <!-- bg-2 end -->
-<!-- 
-    <div class="container-fluid bg-3 text-center ">
+
+
+    <div class="container-fluid bg-3 text-center  ">
         <h3>하리보 BEST TOP4</h3>
-        <div class="row container-fluid bg-3-content ">
-            <div class="col-sm-3">
-                <h3>콜라</h3>
-                <p>Happy Cola</p>
-                    <img src="images/Happy_Cola.png" alt="img" style="width: 50%">
-            </div>
-            <div class="col-sm-3">
-                <h3>골드베어</h3>
-                <p>Goldbears</p>
-                    <img src="images/Goldbears.png" alt="img" style="width: 50%">
-            </div>
-            <div class="col-sm-3">
-                <h3>복숭아</h3>
-                <p>Pfirsiche</p>
-                    <img src="images/Happy_Peaches.png" alt="img" style="width: 50%">
-            </div>
-            <div class="col-sm-3">
-                <h3>믹스</h3>
-                <p>Starmix</p>
-                    <img src="images/Starmix.png" alt="img" style="width: 50%">
-            </div>
+        <div class="center slider">
+        <div>
+            <img src="images/slide1.png">
+          </div>
+          <div>
+            <img src="images/slide2.png">
+          </div>
+          <div>
+              <img src="images/slide3.png">
+          </div>
+          <div>
+              <img src="images/slide4.png">
+          </div>
+          <div>
+              <img src="images/slide5.png">
+          </div>
+          <div>
+              <img src="images/slide6.png">
+          </div>
+          <div>
+              <img src="images/slide7.png">
+          </div>
         </div>
-    </div> -->
+    </div>
     <!-- bg-3 end -->
-
-
-
-<!-- 선생님 -->
-
-<!-- slick -->
-
-<section class="center slider">
-    <div>
-      <img src="images/slide1.png">
-    </div>
-    <div>
-      <img src="images/slide2.png">
-    </div>
-    <div>
-        <img src="images/slide3.png">
-    </div>
-    <div>
-        <img src="images/slide4.png">
-    </div>
-    <div>
-        <img src="images/slide5.png">
-    </div>
-    <div>
-        <img src="images/slide6.png">
-    </div>
-    <div>
-        <img src="images/slide7.png">
-    </div>
-    
-  </section>
-
- 
-
-
-
-
-
 
 
     <footer class="container-fluid bg-4 text-center">
@@ -149,10 +115,6 @@
 
     
      
-
-
-
-
 
 
 
@@ -169,20 +131,22 @@
         AOS.init();
     </script>
 
-    <!-- swiper -->
+    <!-- slick -->
 
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
- 
 
- 
 
     <script>
-        $(".center").slick({
-            centerMode: true,
-            centerPadding: "140px",
-            slidesToShow: 3
-        });
+        $(document).on('ready', function() {
+      $(".center").slick({
+        dots: true,
+        infinite: true,
+        centerMode: true,
+        slidesToShow: 3,
+        slidesToScroll: 3
+      });
+});
       </script>
 
 </body>
