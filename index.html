@@ -4,410 +4,186 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- 파비콘 -->
-    <link rel="shortcut icon" href="images/logo.png">
-    <link rel="apple-touch-icon" href="images/logo.ico">
-    <!-- 파비콘 -->
-    <title>남산 원페이지</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.2.0.min.js" integrity="sha256-JAW99MJVpJBGcbzEuXk4Az05s/XyDdBomFqNlM3ic+I=" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
-    <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-    <link rel="stylesheet" href="css/style2.css">
+    <title>haribo</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- font -->
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <!-- aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> 
+    <!-- slick-->
+    <link rel="stylesheet"  href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+    <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css"/> 
+
+    <link rel="stylesheet" href="css/style.css">
     
-    
+   
+
 </head>
 <body>
-    <!-- section01 start -->
-    <div id="section01">
-        <div class="swiper-container swiper-container-main">
-        <div class="swiper-wrapper">
-            <div class="swiper-slide bg-01"></div>
-            <div class="swiper-slide bg-02"></div>
-            <div class="swiper-slide bg-03"></div>
-        </div>
-       
+    <header class="bg-light">
+        <div class="container header-nav">
+            <nav class="navbar navbar-expand-md navbar-light ">
+                <a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
+                <!-- logo -->
+                <button type="btn" class="navbar-toggler" data-toggle="collapse" data-target="#navi">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
-
-        <div class="menu_box clearfix fixed">
-            <div class="logo">
-               <a href="#section01"> <img src="images/main_logo.png" alt=""></a></div>
-            <!-- navi start   -->
-            <ul class="ul">
-                <li><a href="#section01">메인</a></li>
-                <li><a href="#section02">남산안내</a></li>
-                <li><a href="#section03">코스안내</a></li>
-                <li><a href="#section04">주변안내</a></li>
-                <li><a href="#section05">남산갤러리</a></li>
-                <li><a href="#section06">지도</a></li>
-            </ul>
-
-            <div class="goustmenu">
-                <i class="fas fa-bars"></i>
+                <!-- goust -->
+            <div class="collapse navbar-collapse justify-content-end" id="navi">
+                <ul class="navbar-nav ">
+                    <li class="nav-item"><a href="#" class="nav-link">PRODUCT</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">ABOUT US</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">NEWS</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link">STORE</a></li>
+                </ul>
             </div>
-            <!--navi end-->
+                <!-- navi -->
+            </nav>
         </div>
-        <div class="maintxt">
-            <h3>남산,南山</h3>
-            <p>NAMSAN</p>
+    </header>
+    <!-- header end -->
+
+    <div class="container-fluid bg-1 text-center">
+        <!-- <div data-aos="fade-right" class="main-banner">
+            <img src="images/ddddddd.png" width="" alt="">
         </div>
-         </div>
+        <h3>" 하리보는 어린이를 즐겁게합니다</h3>
+        <p>그리고 어른들도요! " </p> -->
     </div>
-    <!-- section01 end -->
+    <!-- main end -->
+
+    <div class="container-fluid bg-2 bg-light">
+        <div class="row">
+            <div class="col-sm-6">
+                <video src='video/haribo.mp4'  controls autoplay loop class="videos">
+                   
+                </video>
+                
+            </div>
+            <div class="col-sm-6 bg-2-2 text-center"data-aos="fade-up"data-aos-anchor="#example-anchor"data-aos-offset="1500"data-aos-duration="2500">
+                <h3>하리보만의 특별한 식감</h3>
+                <p>독일에서 온 하리보는 125가지 제품들이 생산되고 있습니다.
+                <br>하리보는 어린이 뿐만 아니라 어른들과도 함께 합니다. 
+                </p>
+            </div>
+    </div>
+</div>
+
+<!-- bg-2 end -->
+<!-- 
+    <div class="container-fluid bg-3 text-center ">
+        <h3>하리보 BEST TOP4</h3>
+        <div class="row container-fluid bg-3-content ">
+            <div class="col-sm-3">
+                <h3>콜라</h3>
+                <p>Happy Cola</p>
+                    <img src="images/Happy_Cola.png" alt="img" style="width: 50%">
+            </div>
+            <div class="col-sm-3">
+                <h3>골드베어</h3>
+                <p>Goldbears</p>
+                    <img src="images/Goldbears.png" alt="img" style="width: 50%">
+            </div>
+            <div class="col-sm-3">
+                <h3>복숭아</h3>
+                <p>Pfirsiche</p>
+                    <img src="images/Happy_Peaches.png" alt="img" style="width: 50%">
+            </div>
+            <div class="col-sm-3">
+                <h3>믹스</h3>
+                <p>Starmix</p>
+                    <img src="images/Starmix.png" alt="img" style="width: 50%">
+            </div>
+        </div>
+    </div> -->
+    <!-- bg-3 end -->
+
+
+
+<!-- 선생님 -->
+
+<!-- slick -->
+
+<section class="center slider">
+    <div>
+      <img src="images/slide1.png">
+    </div>
+    <div>
+      <img src="images/slide2.png">
+    </div>
+    <div>
+        <img src="images/slide3.png">
+    </div>
+    <div>
+        <img src="images/slide4.png">
+    </div>
+    <div>
+        <img src="images/slide5.png">
+    </div>
+    <div>
+        <img src="images/slide6.png">
+    </div>
+    <div>
+        <img src="images/slide7.png">
+    </div>
     
-    <!-- section02 start -->
-    <div id="section02">
-        <div class="container-02 clearfix">
-            <div class="left-contents"></div>
-            <div class="right-contents">
-                <div class="text">
-                    <h3>남산(해발 270.85m)</h3>
-                    <p>남산은 서울특별시 중구와 용산구에 걸쳐있는 산으로, 정상에는 서울의 상징인 서울N타워가 위치하고있다. 각종 수목이 이루는 푸른 경관, 특히 소나무가 상징적이다. 도심부임에도 꿩을 비롯한 각종 산다람주 등 동식물의 보금자리가 되고있다. 접근성이 좋고 주변 볼거리가 많아 가족, 커플, 관광객들에게 사랑받고있다.
-                    </p>
-                </div>
-            </div>
-        </div>
-        <div class="main-txt">
-            <h1><span>A</span>BOUT</h1>
-        </div>
-    </div>  
-    <!-- section02 end -->
-    <div class="clearfix"></div>
-    <!-- section03 start -->
-    <div id="section03">
-        <div class="container-03">
-            <div class="contents-box">
-                <div class="contents-01">
-                    <div class="sec03-txt">
-                    <h3>CABLECAR</h3>
-                    <p>남산하면 생각나는 대표적인 케이블카를
-                        이용하여<br>남산 정상으로 가는 코스입니다.</p>
-                        <div class="modal-btn">
-                            <button class="btn01 btnall">Click</button>
-                        </div>
+  </section>
 
-                    </div>
-                </div>
-                <div class="contents-02">
-                    <div class="sec03-txt">
-                        <h3>NATIONAL THEATER</h3>
-                        <p>1950년 창설한 국립극장을 거쳐 남산 정상으로<br>가는 코스로 한국 전통예슬과 공연예술을 경험할 수 있습니다 .</p>
-                        <div class="modal-btn-02">
-                            <button class="btn02 btnall">Click</button>
-                        </div>
-                        
-                    </div>
-                </div>
-                
-                <div class="contents-03">
-                    <div class="sec03-txt">
-                        <h3>NAMSAN PUBLIC LIBRARY</h3>
-                        <p>남산도서관 코스는 1922년 개관하여 모든시민들이<br>남산의 수려한 경관을 보며 독서,산책을 할 수있는 코스입니다.  </p>
-                        <div class="modal-btn-03">
-                            <button class="btn03 btnall">Click</button>
-                        </div>
-                        
-                    </div>
-                </div>
-            </div>
-            <div class="clearfix"></div>
+ 
 
-            <div class="modal_01">
-                <div class="cablecar-img">
-                    <img src="images/cablecar.jpg" alt="">
-                </div>
-                <div class="x">
-                    <span>x</span>
-                </div>
-            </div>
-            <div class="modal_02">
-                <div class="national-img">
-                    <img src="images/national.jpg" alt="">
-                </div>
-                <div class="x2">
-                    <span>x</span>
-                </div>
-            </div>
-            <div class="modal_03">
-                <div class="library-img">
-                    <img src="images/library.jpg" alt="">
-                </div>
-                <div class="x3">
-                    <span>x</span>
-                </div>
-            </div>
-            
-        </div>
-    </div>
-    <!-- section03 end -->
-    <!-- section04 start -->
-    <div id="section04">
-        <div class="container-04 clearfix">
-            <div class="left-box">
-                <div class="swiper-container swiper-container1">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide sec04-1"></div>
-                      <div class="swiper-slide sec04-2"></div>
-                      <div class="swiper-slide sec04-3"></div>
-                      <div class="swiper-slide sec04-4"></div>
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                  </div>
-                
-                <div class="left-bg-txt sec04-txt">
-                    <h3>서울 신라호텔(The Shilla Seoul)</h3>
-                    <p>남산에서 차로 15분 거리에 위치한 5성급 호텔 <br> 객실에서 남산뷰를 볼 수 있어 연인 및 가족 고객에게 추천</p>
-                </div>
-            </div>
 
-            <div class="right-box">
-                <div class="swiper-container swiper-container1">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide sec04-5"></div>
-                      <div class="swiper-slide sec04-6"></div>
-                      <div class="swiper-slide sec04-7"></div>
-                      <div class="swiper-slide sec04-8"></div>
-                      <div class="swiper-slide sec04-9"></div>
-                    
-                    </div>
-                    <!-- Add Arrows -->
-                    <div class="swiper-button-next"></div>
-                    <div class="swiper-button-prev"></div>
-                  </div>
-                <div class="right-bg-txt sec04-txt">
-                    <h3>촛불 1978 (Candle 1978)</h3>
-                    <p>남산 케이블카에서 도보 5분 거리에 위치<br>매일 20시 촛불 타임이 있어 남산의 야경을 볼 수 있음</p>
-                </div>
-            </div>
-            <div class="clearfix"></div>
-         </div>
-    </div>
-    <!-- section04 end -->
-    <!-- section05 start -->
-    <div id="section05">
-        <div class="container-05 clearfix">
-            <h3>My Namsan Gallery</h3>
-            <div class="sec-05-gallery ">
-                <div class="gallery-box1 margin-1" >
-                    <img src="images/section05-01.jpg" alt="">
-                </div>
-                <div class="gallery-box1 margin-2">
-                    <img src="images/section05-02.jpg" alt="">
-                </div>
-                <div class="gallery-box1 margin-3">
-                    <img src="images/section05-03.jpg" alt="">
-                    
-                </div>
-                <div class="gallery-box1 margin-4">
-                    <img src="images/section05-04.jpg" alt="">
-                 
-                </div>  
-                <div class="gallery-box1 margin-5 pad5">
-                    <img src="images/section05-05.jpg" alt="">
-                  
-                </div>
-                <div class="gallery-box1 margin-6 pad5">
-                    <img src="images/section05-06.jpg" alt="">
-                   
-                </div>
-                <div class="gallery-box1 margin-7 pad5">
-                    <img src="images/section05-07.jpg" alt="">
-                   
-                </div>
-                <div class="gallery-box1 margin-8 pad5">
-                    <img src="images/section05-08.jpg" alt="">
-                </div>  
-            </div>  
-        </div>
-    </div>
-    <div class="clearfix"></div>
-      <!-- section05 end -->
-      <!-- section06 start -->
-      <div id="section06">
-        <div class="sec-06-text">
-            <h3>남산 / 찾아 오는 길</h3>
-            <p>SEOUL NAMSAN</p>
-        </div>
-          <div class="container-06">
-              <div class="sec-06-contents clearfix">
-                <div class="map_box">   
-                <div id="map"></div>
-            </div> 
-                <div class="sec-06-rightcontent">
-                    <div class="sec-06-text1">
-                        <h3>
-                            순환 버스 이용 
-                        </h3>
-                        <p>Circulating bus</p>
-                        <p>버스 이용 시 이것만 기억하세요!</p>
-                        <p>순환버스는 남산서울타워를 기점으로 한 방향으로만 순환 운행됩니다.
-                            
-                            동대입구역에서는 모든 순환버스 탑승이 가능하여 대기 시간이 짧고, 빠르게 도착하실 수 있어요!
-                            
-                            모든 순환버스의 종점은 남산서울타워입니다. 주변 풍경을 즐기시다가 종점에서 하차하세요.</p>
-                    </div>
 
-                    <div class="sec-06-text2 clearfix">
-                        <h3>02번 버스</h3>
-                        <p>지하철 연계 탑승장</p>
-                        <p>
-                            충무로역 2번 출구(대한극장)
-                            - 출구에서 직진, 약 1분 앞 버스 정류장
-                            - 소요시간 : 약 15분</p>
-                            <p>배차 간격 및 운행 시간</p>
-                        <p>
-                            배차 간격 7~12분, 첫차 06:30 ~ 막차 22:45</p>
-                    </div>
-                    <div class="sec-06-text3">
-                       <h3>04번 버스</h3>
-                       <p>지하철 연계 탑승장</p>
-                       <p>
-                        시청역, 종각역(종로1,2가),종로3가역, 동대문역,
-                         동대문역사문화공원역, 동대입구역</p>
-                         <p>배차 간격 및 운행 시간</p>
-                       <p>
-                        배차 간격 11~13분, 첫차 06:30 ~ 막차 22:30</p>
-                    </div>
-                </div>
-              </div>
-          </div>
-          <div class="footer">
-              <h3>서울특별시 중구 회현동1가</h3>
-              <p>copyright&copy;</p>
-          </div>
-      </div>
 
+
+
+
+    <footer class="container-fluid bg-4 text-center">
+        <p>bootstrap</p>
+    </footer>
+
+
+    
+     
+
+
+
+
+
+
+
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- aos -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
-        /**스크롤이 설정한 높이 이상 내려갔을때 스타일추가하기**/
-        if (jQuery(window).width() > 0) {
-        jQuery(window).on("scroll",function(ev){
-            if(jQuery(window).scrollTop() > 150 ) { /**높이 픽셀 조정**/
-                jQuery('.menu_box').addClass('fixed');  /**위의 높이에서 .fixed 클래스를 추가합니다. 스타일에서 자유롭게 수치 조절 가능합니다.**/
-            }
-            else{
-                jQuery('.menu_box').removeClass('fixed');
-            }
-            return false;
-        });
-        }
-        
-        /**마우스 부드럽게 해당위치로 이동**/
-        $(function(){
-           $('a[href^=#]').click(function() {
-              var speed = 800;
-              var href= $(this).attr("href");
-              var target = $(href == "#" || href == "" ? 'html' : href);
-              var position = target.offset().top;
-              $('body,html').animate({scrollTop:position}, speed, 'swing');
-              return false;
-           });
-        });
+        AOS.init();
     </script>
 
-<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <!-- main -->
-  <script>
-    var swiper = new Swiper('.swiper-container-main', {
-        effect: 'fade',
-        speed:1000,
-        spaceBetween: 0,
-        centeredSlides: true,
-        autoplay: {
-        delay: 2500,
-        disableOnInteraction: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
-  <!-- main end -->
-<script>
-    var swiper = new Swiper('.swiper-container1', {
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-      loop:true
-    });
-  </script>
+    <!-- swiper -->
 
-    <!-- 지도 start -->
+    <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+ 
 
-<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=42607d6298984aba914224717c7f2e59"></script>
-<script>
-var mapContainer = document.getElementById('map'), // 지도를 표시할 div 
-    mapOption = { 
-        center: new kakao.maps.LatLng(37.55488046098124, 126.98131289532623), // 지도의 중심좌표
-        level: 3 // 지도의 확대 레벨
-    };
+ 
 
-var map = new kakao.maps.Map(mapContainer, mapOption); // 지도를 생성합니다
-
-var marker = new kakao.maps.Marker();
-
-// 타일 로드가 완료되면 지도 중심에 마커를 표시합니다
-kakao.maps.event.addListener(map, 'tilesloaded', displayMarker);
-
-function displayMarker() {
-    
-    // 마커의 위치를 지도중심으로 설정합니다 
-    marker.setPosition(map.getCenter()); 
-    marker.setMap(map); 
-
-    // 아래 코드는 최초 한번만 타일로드 이벤트가 발생했을 때 어떤 처리를 하고 
-    // 지도에 등록된 타일로드 이벤트를 제거하는 코드입니다 
-    // kakao.maps.event.removeListener(map, 'tilesloaded', displayMarker);
-}
-</script>
-<!-- 지도 end -->
-
-<!-- modal start  -->
-<script>
-    $(function(){
-        $(".btn01").click(function(){
-            $(".modal_01").fadeIn();
+    <script>
+        $(".center").slick({
+            centerMode: true,
+            centerPadding: "140px",
+            slidesToShow: 3
         });
-        $(".x").click(function(){
-            $(".modal_01").fadeOut();
-        });
-        $(".btn02").click(function(){
-            $(".modal_02").fadeIn();
-        });
-        $(".x2").click(function(){
-            $(".modal_02").fadeOut();
-        });
-        $(".btn03").click(function(){
-            $(".modal_03").fadeIn();
-        });
-        $(".x3").click(function(){
-            $(".modal_03").fadeOut();
-        });
-    });
-
-
-</script>
-<!-- modal end -->
-
-<!-- nav start -->
-<script>
-    $(function(){
-        $(".goustmenu").click(function(){
-            $(".ul").slideToggle();
-        });
-    });
-</script>
-
-
-
-
-
-<!-- nav end -->
-
-
+      </script>
 
 </body>
 </html>
