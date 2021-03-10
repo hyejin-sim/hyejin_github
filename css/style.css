@@ -19,6 +19,9 @@ p{
     padding-top: 70px;
     padding-bottom: 70px;
 }
+.nav-link{
+    padding: 0 1%;
+}
 /**/
 
 
@@ -99,9 +102,7 @@ p{
     color: #555;
     padding: 4% 0 5% 0;
 }
-.bg-3>h3{
-    padding-bottom: 1%;
-}
+
 
 
 .bg-3-content>.col-sm-3>h3{
@@ -121,6 +122,33 @@ p{
 
 /*bg-3 end*/
 .bg-4{
+    color: #333;
+
+    
+}
+.bg-4-1{
+    margin-top: 7%;
+    
+}
+.bg-4-1>h3{
+    padding: 2% 0;
+}
+
+.bg-4-2>img{
+    width: 100%;
+}
+
+
+
+
+
+
+/*bg-4 end*/
+
+.bg-5{
+    color: #333;
+}
+.bg-footer{
     background-color: #2f2f2f;
     color: #fff;
 }
@@ -142,12 +170,12 @@ p{
 
   .slider {
       width: 100%;
-      margin: 100px auto;
+      margin: 0 auto;
   }
 
   .slick-slide {
     margin: 0px 20px;
-    padding-bottom: 1%;
+    padding: 1% 0;
   }
 
   .slick-slide img {
@@ -164,6 +192,11 @@ p{
 
 .slick-center img {
     transform: scale(1.1);
+
+}
+.slick-center img:hover{
+    transform: rotate(-20deg);
+
 }
 
   
