@@ -17,7 +17,8 @@
     <!-- slick-->
     <link rel="stylesheet"  href="https://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
     <link rel="stylesheet"  href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick-theme.css"/> 
-
+    <!-- swpier -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
     
    
@@ -25,7 +26,7 @@
 </head>
 <body>
     <header class="bg-light">
-        <div class="container header-nav">
+        <div class="container-fluid header-nav">
             <nav class="navbar navbar-expand-md navbar-light ">
                 <a href="#" class="navbar-brand"><img src="images/logo.png" alt="logo"></a>
                 <!-- logo -->
@@ -50,17 +51,29 @@
     <!-- header end -->
 
     <div class="container-fluid bg-1 text-center">
-        <!-- <div data-aos="fade-right" class="main-banner">
-            <img src="images/ddddddd.png" width="" alt="">
+        <div class="row">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide"><img src="images/main3.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="images/main1.jpg" alt=""></div>
+              <div class="swiper-slide"><img src="images/main4.jpg" alt=""></div>
+             
+            </div>
+            <!-- Add Pagination -->
+            <!-- <div class="swiper-pagination"></div> -->
+            <!-- Add Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+          </div>
         </div>
-        <h3>" 하리보는 어린이를 즐겁게합니다</h3>
-        <p>그리고 어른들도요! " </p> -->
+
     </div>
     <!-- main end -->
  
 
     <div class="container-fluid bg-2 bg-light">
-        <div class="row">
+        <div class="container-fluid">
+        <div class="row bg-2-row">
             <div class="col-sm-6">
                 <video src='video/haribo.mp4' controls autoplay loop class="videos">
                    
@@ -74,6 +87,7 @@
                 </p>
             </div>
     </div>
+</div>
 </div>
 
 <!-- bg-2 end -->
@@ -107,7 +121,8 @@
     </div>
     <!-- bg-3 end -->
     <div class="container-fluid bg-4 bg-light text-center ">
-        <div class="row">
+        <div class="container-fluid">
+        <div class="row bg-4-row">
             <div class="col-sm-6">
                 <div class="bg-4-1" data-aos="fade-up"data-aos-anchor="#example-anchor"data-aos-offset="1500"data-aos-duration="2500">
                     <h3>
@@ -134,40 +149,39 @@
 
         </div>
     </div>
+    </div>
 
     
     <!-- bg-4 end -->
 
-    <div class="container-fluid bg-5 text-center  ">
-        <div class="row">
-            <div class="col-sm-6">
+    <div class="container-fluid bg-5 text-center">
+        
+        <div class="row bg-5-row">
+            <div class="col-sm-4">
                 <img src="images/yh.png" alt="">
                 <p>저는 군것질을 좋아하지 않지만 하리보는 먹습니다!!</p>
+                <p>dfdfsfjlkjskdfjklsdjfksfjlksjflksjkfjslkjfjkl</p>
                 
                 
             </div>
-            <div class="col-sm-6">
+            <div class="col-sm-4">
                 <img src="images/yh.png" alt="">
                 <p>저는 군것질을 좋아하지 않지만 하리보는 먹습니다!!</p>
+                <p>dfdfsfjlkjskdfjklsdjfksfjlksjflksjkfjslkjfjkl</p>
+                
+                
+            </div>
+
+            <div class="col-sm-4">
+                <img src="images/yh.png" alt="">
+                <p>저는 군것질을 좋아하지 않지만 하리보는 먹습니다!!</p>
+                <p>dfdfsfjlkjskdfjklsdjfksfjlksjflksjkfjslkjfjkl</p>
                 
                 
             </div>
 
         </div>
-        <div class="row">
-            <div class="col-sm-6">
-                <img src="images/yh.png" alt="">
-                <p>저는 군것질을 좋아하지 않지만 하리보는 먹습니다!!</p>
-                
-                
-            </div>
-            <div class="col-sm-6">
-                <img src="images/yh.png" alt="">
-                <p>저는 군것질을 좋아하지 않지만 하리보는 먹습니다!!</p>
-                
-            </div>
-
-        </div>
+        
     </div>
 
     <!-- bg-5 end -->
@@ -214,5 +228,25 @@
 });
       </script>
 
+      <!-- swiper -->
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+        var swiper = new Swiper('.swiper-container', {
+          spaceBetween: 30,
+          centeredSlides: true,
+          autoplay: {
+            delay: 2500,
+            disableOnInteraction: false,
+          },
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+          navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+          },
+        });
+      </script>
 </body>
 </html>
